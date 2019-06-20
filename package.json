@@ -1,0 +1,18 @@
+{
+  "name": "@kenan/renovate-config",
+  "version": "0.0.0",
+  "description": "Renovate config for KenanY projects",
+  "repository": "KenanY/renovate-config",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        "semanticCommits",
+        ":semanticCommitType(deps)",
+        ":labels(deps)"
+      ]
+    }
+  }
+}
