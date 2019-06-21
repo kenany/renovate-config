@@ -1,6 +1,6 @@
 {
   "name": "@kenan/renovate-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Renovate config for KenanY projects",
   "repository": "KenanY/renovate-config",
   "license": "MIT",
