@@ -9,7 +9,7 @@
     "default": {
       "extends": [
         "config:base",
-        "semanticCommits",
+        ":semanticCommits",
         ":semanticCommitType(deps)",
         ":labels(deps)"
       ]
