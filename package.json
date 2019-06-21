@@ -11,7 +11,7 @@
         "config:base",
         ":semanticCommits",
         ":semanticCommitType(deps)",
-        ":labels(deps)"
+        ":label(deps)"
       ]
     }
   }
