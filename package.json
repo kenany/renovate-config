@@ -14,8 +14,8 @@
         ":label(deps)"
       ],
       "commitMessageAction": null,
-      "commitMessageExtra": "@{{{toVersion}}}",
-      "commitMessageTopic": "{{depName}}"
+      "commitMessageExtra": null,
+      "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
     }
   }
 }
