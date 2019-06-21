@@ -12,7 +12,10 @@
         ":semanticCommits",
         ":semanticCommitType(deps)",
         ":label(deps)"
-      ]
+      ],
+      "commitMessageAction": null,
+      "commitMessageExtra": "@{{{toVersion}}}",
+      "commitMessageTopic": "{{depName}}"
     }
   }
 }
