@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/KenanY/renovate-config/compare/1.3.0...1.4.0) (2020-08-03)
+
+
+### Features
+
+* enable lockfile maintenance ([26845c9](https://github.com/KenanY/renovate-config/commit/26845c96fe5abf5e9cac985cbf80c5ac939f2bc4))
+
 ## [1.3.0](https://github.com/KenanY/renovate-config/compare/1.2.2...1.3.0) (2020-08-03)
 
 
