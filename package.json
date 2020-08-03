@@ -20,7 +20,8 @@
         "config:base",
         ":semanticCommits",
         ":semanticCommitType(deps)",
-        ":label(deps)"
+        ":label(deps)",
+        ":rebaseStalePrs"
       ],
       "commitMessageAction": null,
       "commitMessageExtra": null,
