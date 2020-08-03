@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/KenanY/renovate-config/compare/1.2.2...1.3.0) (2020-08-03)
+
+
+### Features
+
+* update range strategy to "bump" ([5d0815a](https://github.com/KenanY/renovate-config/commit/5d0815aa45ce23ee57a2b6a60f3882e18f834d70))
+
 ### [1.2.2](https://github.com/KenanY/renovate-config/compare/1.2.1...1.2.2) (2020-08-03)
 
 
