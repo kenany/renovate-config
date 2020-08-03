@@ -32,6 +32,10 @@
       "commitMessageAction": null,
       "commitMessageExtra": null,
       "commitMessageTopic": "{{depName}}@{{{toVersion}}}",
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": null
+      },
       "rangeStrategy": "bump"
     }
   }
