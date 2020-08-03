@@ -5,6 +5,12 @@
   "repository": "KenanY/renovate-config",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "release": "semantic-release"
   },
