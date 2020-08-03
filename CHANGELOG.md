@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/KenanY/renovate-config/compare/1.2.0...1.2.1) (2020-08-03)
+
+
+### Bug Fixes
+
+* update copyright year to 2020 ([522d9e1](https://github.com/KenanY/renovate-config/commit/522d9e19f95b6b78e9b6fcc82144540689d95d2f))
+
 ## [1.2.0](https://github.com/KenanY/renovate-config/compare/1.1.1...1.2.0) (2020-08-03)
 
 
