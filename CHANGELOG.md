@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/KenanY/renovate-config/compare/1.2.1...1.2.2) (2020-08-03)
+
+
+### Bug Fixes
+
+* specify files to publish ([655fe15](https://github.com/KenanY/renovate-config/commit/655fe158713f7c55c2ff8bb40d6f79e73fd100dc))
+
 ### [1.2.1](https://github.com/KenanY/renovate-config/compare/1.2.0...1.2.1) (2020-08-03)
 
 
