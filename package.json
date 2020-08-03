@@ -31,7 +31,8 @@
       ],
       "commitMessageAction": null,
       "commitMessageExtra": null,
-      "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
+      "commitMessageTopic": "{{depName}}@{{{toVersion}}}",
+      "rangeStrategy": "bump"
     }
   }
 }
