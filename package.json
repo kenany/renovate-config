@@ -25,18 +25,30 @@
       "extends": [
         "config:base",
         ":semanticCommits",
-        ":semanticCommitType(deps)",
+        ":semanticCommitScope(deps)",
         ":label(deps)",
         ":rebaseStalePrs"
       ],
-      "commitMessageAction": null,
-      "commitMessageExtra": null,
-      "commitMessageTopic": "{{depName}}@{{{toVersion}}}",
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": null
       },
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "packageRules": [
+        {
+          "managers": ["github-actions"],
+          "extends": [
+            ":semanticCommitScope(ci)",
+            ":label(ci)"
+          ]
+        },
+        {
+          "datasources": ["npm"],
+          "commitMessageAction": null,
+          "commitMessageExtra": null,
+          "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
+        }
+      ]
     }
   }
 }
