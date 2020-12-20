@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/KenanY/renovate-config/compare/1.4.0...1.5.0) (2020-12-20)
+
+
+### Features
+
+* separate npm updates from github-actions updates ([f932bb7](https://github.com/KenanY/renovate-config/commit/f932bb7bc3169f2727dc3bdafb275d93aee11ec2))
+
 ## [1.4.0](https://github.com/KenanY/renovate-config/compare/1.3.0...1.4.0) (2020-08-03)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@kenan/renovate-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Renovate config for KenanY projects",
   "repository": "KenanY/renovate-config",
   "license": "MIT",
@@ -36,14 +36,18 @@
       "rangeStrategy": "bump",
       "packageRules": [
         {
-          "managers": ["github-actions"],
+          "managers": [
+            "github-actions"
+          ],
           "extends": [
             ":semanticCommitScope(ci)",
             ":label(ci)"
           ]
         },
         {
-          "datasources": ["npm"],
+          "datasources": [
+            "npm"
+          ],
           "commitMessageAction": null,
           "commitMessageExtra": null,
           "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
