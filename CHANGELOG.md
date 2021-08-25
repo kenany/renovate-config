@@ -1,3 +1,10 @@
+### [1.5.1](https://github.com/KenanY/renovate-config/compare/1.5.0...1.5.1) (2021-08-25)
+
+
+### Bug Fixes
+
+* disable dependency dashboard ([334f461](https://github.com/KenanY/renovate-config/commit/334f461b8722913479f0cad842ba5af60aa7e9ce))
+
 ## [1.5.0](https://github.com/KenanY/renovate-config/compare/1.4.0...1.5.0) (2020-12-20)
 
 
