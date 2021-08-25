@@ -24,6 +24,7 @@
     "default": {
       "extends": [
         "config:base",
+        ":disableDependencyDashboard",
         ":semanticCommits",
         ":semanticCommitScope(deps)",
         ":label(deps)",
