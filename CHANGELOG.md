@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/KenanY/renovate-config/compare/1.5.1...1.6.0) (2022-01-02)
+
+
+### Features
+
+* deprecate npm package ([46a5323](https://github.com/KenanY/renovate-config/commit/46a5323921184dfe43a08ecd7d443e764918dec6))
+
 ### [1.5.1](https://github.com/KenanY/renovate-config/compare/1.5.0...1.5.1) (2021-08-25)
 
 
