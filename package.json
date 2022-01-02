@@ -4,7 +4,7 @@
   "description": "Renovate config for KenanY projects",
   "repository": "KenanY/renovate-config",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "files": [
     "CHANGELOG.md",
     "LICENSE.txt",
@@ -19,41 +19,5 @@
     "@semantic-release/git": "^9.0.0",
     "conventional-changelog-conventionalcommits": "^4.3.0",
     "semantic-release": "^17.1.1"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base",
-        ":disableDependencyDashboard",
-        ":semanticCommits",
-        ":semanticCommitScope(deps)",
-        ":label(deps)",
-        ":rebaseStalePrs"
-      ],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": null
-      },
-      "rangeStrategy": "bump",
-      "packageRules": [
-        {
-          "managers": [
-            "github-actions"
-          ],
-          "extends": [
-            ":semanticCommitScope(ci)",
-            ":label(ci)"
-          ]
-        },
-        {
-          "datasources": [
-            "npm"
-          ],
-          "commitMessageAction": null,
-          "commitMessageExtra": null,
-          "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
-        }
-      ]
-    }
   }
 }

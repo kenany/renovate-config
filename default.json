@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    ":label(deps)",
+    ":rebaseStalePrs"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": null
+  },
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "managers": [
+        "github-actions"
+      ],
+      "extends": [
+        ":semanticCommitScope(ci)",
+        ":label(ci)"
+      ]
+    },
+    {
+      "datasources": [
+        "npm"
+      ],
+      "commitMessageAction": null,
+      "commitMessageExtra": null,
+      "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
+    }
+  ]
+}
