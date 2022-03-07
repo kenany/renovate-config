@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/KenanY/renovate-config/compare/1.6.0...1.7.0) (2022-03-07)
+
+
+### Features
+
+* disable major eslint and eslint-config updates ([9469fd1](https://github.com/KenanY/renovate-config/commit/9469fd13e5b37731718a1c9fc7d1a9685a2c79a5))
+
 ## [1.6.0](https://github.com/KenanY/renovate-config/compare/1.5.1...1.6.0) (2022-01-02)
 
 
