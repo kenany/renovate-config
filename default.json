@@ -29,6 +29,12 @@
       "commitMessageAction": null,
       "commitMessageExtra": null,
       "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
+    },
+    {
+      "description": "Disable major eslint and eslint-config updates since they almost always require manual intervention.",
+      "matchPackageNames": ["eslint", "@kenan/eslint-config"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
