@@ -1,0 +1,21 @@
+name: validate
+on: [push, pull_request]
+jobs:
+  release:
+    name: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3.4.1
+        with:
+          node-version: 16
+      - name: Update npm
+        run: |
+          npm install -g npm
+          npm --version
+      - uses: actions/checkout@v3.0.2
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1.8.22
+        with:
+          useLockFile: false
+      - name: Validate
+        run: npm run validate

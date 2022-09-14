@@ -12,12 +12,15 @@
     "README.md"
   ],
   "scripts": {
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "validate": "cross-env RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "renovate": "^32.195.5",
     "semantic-release": "^19.0.5"
   }
 }
