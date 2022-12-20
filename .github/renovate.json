@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>kenany/renovate-config"]
+  "extends": [
+    "local>kenany/renovate-config",
+    ":automergeAll"
+  ],
+  "assignees": ["kenany"],
+  "reviewers": ["kenany"]
 }
