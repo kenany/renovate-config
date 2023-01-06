@@ -15,18 +15,17 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "managers": [
-        "github-actions"
-      ],
+      "managers": ["github-actions"],
       "extends": [
+        ":automergeMinor",
+        ":automergePr",
+        ":automergeRequireAllStatusChecks",
         ":semanticCommitScope(ci)",
         ":label(ci)"
       ]
     },
     {
-      "datasources": [
-        "npm"
-      ],
+      "datasources": ["npm"],
       "commitMessageAction": null,
       "commitMessageExtra": null,
       "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
