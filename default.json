@@ -3,15 +3,12 @@
   "extends": [
     "config:base",
     ":disableDependencyDashboard",
+    ":maintainLockFilesWeekly",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
     ":label(deps)",
     ":rebaseStalePrs"
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": null
-  },
   "rangeStrategy": "bump",
   "packageRules": [
     {
