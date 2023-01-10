@@ -1,3 +1,15 @@
+## [1.8.0](https://github.com/KenanY/renovate-config/compare/1.7.0...1.8.0) (2023-01-10)
+
+
+### Features
+
+* automerge github-actions updates ([b4a388b](https://github.com/KenanY/renovate-config/commit/b4a388bd81bf84275e9532eb9c11e15c583f86b5))
+
+
+### Bug Fixes
+
+* reduce lockfile maintenance schedule to weekly ([e768176](https://github.com/KenanY/renovate-config/commit/e768176977b8d12499c241d5de474e792376343d))
+
 ## [1.7.0](https://github.com/KenanY/renovate-config/compare/1.6.0...1.7.0) (2022-03-07)
 
 
