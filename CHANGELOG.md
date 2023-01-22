@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/KenanY/renovate-config/compare/1.8.0...1.9.0) (2023-01-22)
+
+
+### Features
+
+* set stability days for npm packages ([67b6085](https://github.com/KenanY/renovate-config/commit/67b60859e1591a610b080aa3af21d7da8dc0de3b))
+
 ## [1.8.0](https://github.com/KenanY/renovate-config/compare/1.7.0...1.8.0) (2023-01-10)
 
 
