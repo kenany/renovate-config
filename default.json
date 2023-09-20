@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":disableDependencyDashboard",
     ":maintainLockFilesWeekly",
     ":semanticCommits",
@@ -10,6 +10,7 @@
     ":rebaseStalePrs",
     "npm:unpublishSafe"
   ],
+  "configMigration": true,
   "rangeStrategy": "bump",
   "packageRules": [
     {
