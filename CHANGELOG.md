@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/kenany/renovate-config/compare/1.9.0...1.10.0) (2023-09-20)
+
+
+### Features
+
+* extend from "config:recommended" ([5d0e506](https://github.com/kenany/renovate-config/commit/5d0e506878b95c89a2d8da46bc28346344119fee))
+
 ## [1.9.0](https://github.com/KenanY/renovate-config/compare/1.8.0...1.9.0) (2023-01-22)
 
 
