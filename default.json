@@ -14,7 +14,7 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "managers": ["github-actions"],
+      "matchManagers": ["github-actions"],
       "extends": [
         ":automergeMinor",
         ":automergePr",
@@ -24,10 +24,10 @@
       ]
     },
     {
-      "datasources": ["npm"],
+      "matchDatasources": ["npm"],
       "commitMessageAction": null,
       "commitMessageExtra": null,
-      "commitMessageTopic": "{{depName}}@{{{toVersion}}}"
+      "commitMessageTopic": "{{depName}}@{{{newVersion}}}"
     },
     {
       "description": "Disable major eslint and eslint-config updates since they almost always require manual intervention.",

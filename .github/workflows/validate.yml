@@ -1,5 +1,15 @@
 name: Validate
-on: [push, pull_request, merge_group]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+  merge_group:
 permissions:
   contents: read
 jobs:
