@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/kenany/renovate-config/compare/1.10.0...1.10.1) (2023-12-20)
+
+
+### Bug Fixes
+
+* a few migrations ([f24a11d](https://github.com/kenany/renovate-config/commit/f24a11d3361f4396cc50a22a944fd492b4827473))
+
 ## [1.10.0](https://github.com/kenany/renovate-config/compare/1.9.0...1.10.0) (2023-09-20)
 
 
