@@ -4,6 +4,7 @@
     "config:recommended",
     ":disableDependencyDashboard",
     ":maintainLockFilesWeekly",
+    ":prNotPending",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
     ":label(deps)",
