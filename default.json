@@ -7,10 +7,10 @@
     ":semanticCommits",
     ":semanticCommitScope(deps)",
     ":label(deps)",
-    ":rebaseStalePrs",
-    "npm:unpublishSafe"
+    ":rebaseStalePrs"
   ],
   "configMigration": true,
+  "minimumReleaseAge": "3 days",
   "rangeStrategy": "bump",
   "packageRules": [
     {
