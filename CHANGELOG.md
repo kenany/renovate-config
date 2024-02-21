@@ -1,3 +1,17 @@
+## [1.11.0](https://github.com/kenany/renovate-config/compare/1.10.1...1.11.0) (2024-02-21)
+
+
+### Features
+
+* enforce minimum release age on all managers ([e09f733](https://github.com/kenany/renovate-config/commit/e09f73349f500155fb42f685e89dd13047b88782))
+* open PR when checks ready ([d17799f](https://github.com/kenany/renovate-config/commit/d17799f518234e5254248cb6f603f0d7988f5568))
+* pin docker digests ([4b1238c](https://github.com/kenany/renovate-config/commit/4b1238cf92cee567d9b36003326c4b445ba56e56))
+
+
+### Bug Fixes
+
+* update copyright year ([217ee19](https://github.com/kenany/renovate-config/commit/217ee19160456b8761110e5d4eccd79bbd44d959))
+
 ## [1.10.1](https://github.com/kenany/renovate-config/compare/1.10.0...1.10.1) (2023-12-20)
 
 
