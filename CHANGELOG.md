@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/kenany/renovate-config/compare/1.11.0...1.11.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* open PR immediately ([1ed0027](https://github.com/kenany/renovate-config/commit/1ed0027b5da2406b5253707588f956711c5aae26))
+
 ## [1.11.0](https://github.com/kenany/renovate-config/compare/1.10.1...1.11.0) (2024-02-21)
 
 
