@@ -35,6 +35,19 @@
       "matchPackageNames": ["eslint", "@kenan/eslint-config"],
       "matchUpdateTypes": ["major"],
       "enabled": false
+    },
+    {
+      "description": "Automerge some minor updates.",
+      "matchPackageNames": [
+        "@kenan/eslint-config",
+        "conventional-changelog-conventionalcommits",
+        "semantic-release"
+      ],
+      "extends": [
+        ":automergeMinor",
+        ":automergePr",
+        ":automergeRequireAllStatusChecks"
+      ]
     }
   ]
 }
