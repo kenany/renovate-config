@@ -1,3 +1,9 @@
+## [1.12.0](https://github.com/kenany/renovate-config/compare/1.11.1...1.12.0) (2025-07-19)
+
+### Features
+
+* automerge some minor updates ([a8502db](https://github.com/kenany/renovate-config/commit/a8502db2b2f0a25c1dce5e76797c771b6ae3d786))
+
 ## [1.11.1](https://github.com/kenany/renovate-config/compare/1.11.0...1.11.1) (2024-10-29)
 
 
