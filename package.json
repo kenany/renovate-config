@@ -21,6 +21,6 @@
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "cross-env": "^10.0.0",
     "renovate": "^41.118.1",
-    "semantic-release": "^24.2.8"
+    "semantic-release": "^24.2.9"
   }
 }
