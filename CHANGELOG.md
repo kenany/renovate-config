@@ -1,3 +1,9 @@
+## [1.13.0](https://github.com/kenany/renovate-config/compare/1.12.0...1.13.0) (2025-10-22)
+
+### Features
+
+* extend from config:best-practices ([007cdb1](https://github.com/kenany/renovate-config/commit/007cdb13d5e424e0fdad6d6d93a7b396602b7ee2))
+
 ## [1.12.0](https://github.com/kenany/renovate-config/compare/1.11.1...1.12.0) (2025-07-19)
 
 ### Features
