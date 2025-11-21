@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/kenany/renovate-config/compare/1.13.0...1.13.1) (2025-11-21)
+
+### Bug Fixes
+
+* automerge biome and biome-config updates ([0fc26ec](https://github.com/kenany/renovate-config/commit/0fc26ecc634829e1ecdd2914cb3802f5260cfb12))
+* increase minimum release age to 4 days ([064a293](https://github.com/kenany/renovate-config/commit/064a293311a15d1045a730abf2a9403b44884491))
+
 ## [1.13.0](https://github.com/kenany/renovate-config/compare/1.12.0...1.13.0) (2025-10-22)
 
 ### Features
