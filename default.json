@@ -39,6 +39,8 @@
     {
       "description": "Automerge some minor updates.",
       "matchPackageNames": [
+        "@biomejs/biome",
+        "@kenan/biome-config",
         "@kenan/eslint-config",
         "conventional-changelog-conventionalcommits",
         "semantic-release"
