@@ -21,8 +21,8 @@ importers:
         specifier: 10.1.0
         version: 10.1.0
       renovate:
-        specifier: 42.66.14
-        version: 42.66.14(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.68.2
+        version: 42.68.2(encoding@0.1.13)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.2
         version: 25.0.2
@@ -3210,8 +3210,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.66.14:
-    resolution: {integrity: sha512-FuMJ4oHetWe6SGpO3VS3GORM737534DSyn8n4g28edp9E2Xb6nJU5t/5Iz5cRKjkPwc6ivZxGL/A7vzPBotD0g==}
+  renovate@42.68.2:
+    resolution: {integrity: sha512-dWkZbQXkpaV0u86WQs83K9GlI71vauRDqOQ2Cj7YIO+vB5V7xJX88HXBrzbjI8glzSn5YlfC3+d/481oPfc4WA==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -8133,7 +8133,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.66.14(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.68.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.940.0
       '@aws-sdk/client-ec2': 3.940.0
@@ -8194,6 +8194,7 @@ snapshots:
       emoji-regex: 10.6.0
       emojibase: 16.0.0
       emojibase-regex: 16.0.0
+      execa: 8.0.1
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 7.0.0
