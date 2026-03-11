@@ -1,3 +1,9 @@
+## [1.13.2](https://github.com/kenany/renovate-config/compare/1.13.1...1.13.2) (2026-03-11)
+
+### Bug Fixes
+
+* automerge semantic-release-pnpm updates ([5aa94f3](https://github.com/kenany/renovate-config/commit/5aa94f309f0bfa0659c4fcefedca35808da4f274))
+
 ## [1.13.1](https://github.com/kenany/renovate-config/compare/1.13.0...1.13.1) (2025-11-21)
 
 ### Bug Fixes
