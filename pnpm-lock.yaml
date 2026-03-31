@@ -21,8 +21,8 @@ importers:
         specifier: 10.1.0
         version: 10.1.0
       renovate:
-        specifier: 43.96.0
-        version: 43.96.0(typanion@3.14.0)
+        specifier: 43.99.0
+        version: 43.99.0(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.3
         version: 25.0.3
@@ -1894,11 +1894,6 @@ packages:
   grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
 
-  handlebars@4.7.8:
-    resolution: {integrity: sha512-vafaFqs8MZkRrSX7sFVUdo3ap/eNiLnb4IakshzvP56X5Nr1iGKAIqdX6tMlm6HcNRIkr6AxO5jFEoJzzpT8aQ==}
-    engines: {node: '>=0.4.7'}
-    hasBin: true
-
   handlebars@4.7.9:
     resolution: {integrity: sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==}
     engines: {node: '>=0.4.7'}
@@ -3099,8 +3094,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.96.0:
-    resolution: {integrity: sha512-bsrX3SBjZX4b/CKJpgAXdjVi6VagmUJbXn3YekWsN7XGLwmNXWMIF89muVPj7vKRx15m/o7cb5v0QCf9C7d6dg==}
+  renovate@43.99.0:
+    resolution: {integrity: sha512-RpepD+W0Qzsz/y/8NDEbdWkKRG5vBbhTyLhpF8vz9oXZha/RLjG4tpDSjrKzuI6DjvFopBs0gY8DYBJE9A1WVA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5889,7 +5884,7 @@ snapshots:
     dependencies:
       '@simple-libs/stream-utils': 1.2.0
       conventional-commits-filter: 5.0.0
-      handlebars: 4.7.8
+      handlebars: 4.7.9
       meow: 13.2.0
       semver: 7.7.4
 
@@ -6473,15 +6468,6 @@ snapshots:
   graph-data-structure@4.5.0: {}
 
   grapheme-splitter@1.0.4: {}
-
-  handlebars@4.7.8:
-    dependencies:
-      minimist: 1.2.8
-      neo-async: 2.6.2
-      source-map: 0.6.1
-      wordwrap: 1.0.0
-    optionalDependencies:
-      uglify-js: 3.19.3
 
   handlebars@4.7.9:
     dependencies:
@@ -7810,7 +7796,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.96.0(typanion@3.14.0):
+  renovate@43.99.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
