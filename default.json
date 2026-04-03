@@ -12,6 +12,7 @@
   ],
   "configMigration": true,
   "minimumReleaseAge": "4 days",
+  "postUpdateOptions": ["pnpmDedupe", "yarnDedupeHighest"],
   "rangeStrategy": "bump",
   "packageRules": [
     {
