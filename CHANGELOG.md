@@ -1,3 +1,9 @@
+## [1.14.0](https://github.com/kenany/renovate-config/compare/1.13.2...1.14.0) (2026-04-03)
+
+### Features
+
+* add postUpdateOptions for pnpm dedupe ([dfae97b](https://github.com/kenany/renovate-config/commit/dfae97b7f376d36567ebf8230b2c30265d15d000))
+
 ## [1.13.2](https://github.com/kenany/renovate-config/compare/1.13.1...1.13.2) (2026-03-11)
 
 ### Bug Fixes
