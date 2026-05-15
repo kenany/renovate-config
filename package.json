@@ -11,7 +11,7 @@
     "package.json",
     "README.md"
   ],
-  "packageManager": "pnpm@11.1.0",
+  "packageManager": "pnpm@11.1.1",
   "scripts": {
     "release": "semantic-release",
     "validate": "cross-env RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
