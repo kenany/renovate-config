@@ -45,7 +45,8 @@
         "@kenan/biome-config",
         "@kenan/eslint-config",
         "conventional-changelog-conventionalcommits",
-        "semantic-release"
+        "semantic-release",
+        "tape"
       ],
       "extends": [
         ":automergeMinor",
