@@ -1,3 +1,9 @@
+## [1.15.0](https://github.com/kenany/renovate-config/compare/1.14.0...1.15.0) (2026-06-15)
+
+### Features
+
+* automerge tape updates ([fd205a2](https://github.com/kenany/renovate-config/commit/fd205a2b9c2bbadea4a7293badb54088823abfa7))
+
 ## [1.14.0](https://github.com/kenany/renovate-config/compare/1.13.2...1.14.0) (2026-04-03)
 
 ### Features
