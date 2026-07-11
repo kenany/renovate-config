@@ -21,7 +21,7 @@
     "@semantic-release/git": "10.0.1",
     "conventional-changelog-conventionalcommits": "10.2.1",
     "cross-env": "10.1.0",
-    "renovate": "43.255.2",
+    "renovate": "43.256.0",
     "semantic-release": "25.0.5"
   }
 }
