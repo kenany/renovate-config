@@ -46,7 +46,8 @@
         "@kenan/eslint-config",
         "conventional-changelog-conventionalcommits",
         "semantic-release",
-        "tape"
+        "tape",
+        "tsdown"
       ],
       "extends": [
         ":automergeMinor",
