@@ -38,6 +38,11 @@
       "enabled": false
     },
     {
+      "description": "Hold conventional-changelog-conventionalcommits at v9.",
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "allowedVersions": "<10.0.0"
+    },
+    {
       "description": "Automerge some minor updates.",
       "matchPackageNames": [
         "@biomejs/biome",
