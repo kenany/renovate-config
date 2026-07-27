@@ -45,6 +45,7 @@
         "@kenan/biome-config",
         "@kenan/eslint-config",
         "conventional-changelog-conventionalcommits",
+        "publint",
         "semantic-release",
         "tape",
         "tsdown"
