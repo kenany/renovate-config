@@ -1,3 +1,14 @@
+## [1.16.0](https://github.com/kenany/renovate-config/compare/1.15.0...1.16.0) (2026-07-27)
+
+### Features
+
+* automerge publint updates ([194697b](https://github.com/kenany/renovate-config/commit/194697b03905720ef366e89a87d25fce4c882357))
+* automerge tsdown updates ([93346d1](https://github.com/kenany/renovate-config/commit/93346d133a70c34bc4af28bd811dac4589a520e7))
+
+### Bug Fixes
+
+* downgrade conventional-changelog-conventionalcommits to v9 ([fd97691](https://github.com/kenany/renovate-config/commit/fd97691b9e73e04e49ab84a002cecfc1f28d6240))
+
 ## [1.15.0](https://github.com/kenany/renovate-config/compare/1.14.0...1.15.0) (2026-06-15)
 
 ### Features
