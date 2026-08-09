@@ -11,6 +11,10 @@
     "docker:pinDigests"
   ],
   "configMigration": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "minimumReleaseAge": "4 days",
   "postUpdateOptions": ["pnpmDedupe", "yarnDedupeHighest"],
   "rangeStrategy": "bump",
