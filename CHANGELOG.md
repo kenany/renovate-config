@@ -1,3 +1,9 @@
+## [1.17.0](https://github.com/kenany/renovate-config/compare/1.16.0...1.17.0) (2026-08-09)
+
+### Features
+
+* automerge lockfile updates ([3faa8b5](https://github.com/kenany/renovate-config/commit/3faa8b5512d1c012cc4d10ffd6d816df18f4173e))
+
 ## [1.16.0](https://github.com/kenany/renovate-config/compare/1.15.0...1.16.0) (2026-07-27)
 
 ### Features
