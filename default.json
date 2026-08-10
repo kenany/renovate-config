@@ -13,7 +13,8 @@
   "configMigration": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "minimumReleaseAge": null
   },
   "minimumReleaseAge": "4 days",
   "postUpdateOptions": ["pnpmDedupe", "yarnDedupeHighest"],
