@@ -1,3 +1,9 @@
+## [1.17.1](https://github.com/kenany/renovate-config/compare/1.17.0...1.17.1) (2026-08-10)
+
+### Bug Fixes
+
+* disable minimumReleaseAge for lockFileMaintenance ([7600327](https://github.com/kenany/renovate-config/commit/76003272abe2f217601404170579736ee48de5a3))
+
 ## [1.17.0](https://github.com/kenany/renovate-config/compare/1.16.0...1.17.0) (2026-08-09)
 
 ### Features
