@@ -8,6 +8,8 @@
     ":semanticCommitScope(deps)",
     ":label(deps)",
     ":rebaseStalePrs",
+    "customManagers:tsconfigNodeVersions",
+    "docker:enableMajor",
     "docker:pinDigests"
   ],
   "configMigration": true,
@@ -16,7 +18,7 @@
     "automerge": true,
     "minimumReleaseAge": null
   },
-  "minimumReleaseAge": "4 days",
+  "minimumReleaseAge": "7 days",
   "postUpdateOptions": ["pnpmDedupe", "yarnDedupeHighest"],
   "rangeStrategy": "bump",
   "packageRules": [
@@ -65,6 +67,29 @@
         ":automergePr",
         ":automergeRequireAllStatusChecks"
       ]
+    },
+    {
+      "description": "Separate multiple major for Node.js.",
+      "matchDepNames": ["node", "**/node"],
+      "separateMultipleMajor": true
+    },
+    {
+      "description": "Set branch prefix for Node.js major updates to split from minor updates.",
+      "matchPackageNames": ["node", "**/node"],
+      "matchUpdateTypes": ["major"],
+      "additionalBranchPrefix": "major"
+    },
+    {
+      "description": "Split Node.js types to separate PR.",
+      "matchPackageNames": ["@types/node"],
+      "matchUpdateTypes": ["major"],
+      "additionalBranchPrefix": "major-types"
+    },
+    {
+      "description": "Widen Node.js engines.",
+      "matchPackageNames": ["node"],
+      "matchDepTypes": ["engines"],
+      "rangeStrategy": "widen"
     }
   ]
 }
