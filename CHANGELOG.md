@@ -1,3 +1,9 @@
+## [1.18.0](https://github.com/kenany/renovate-config/compare/1.17.1...1.18.0) (2026-11-26)
+
+### Features
+
+* add rules around Node.js updates ([0018565](https://github.com/kenany/renovate-config/commit/00185656a28c6420e3d8c3f6712081ca732bcffc))
+
 ## [1.17.1](https://github.com/kenany/renovate-config/compare/1.17.0...1.17.1) (2026-08-10)
 
 ### Bug Fixes
